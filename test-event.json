@@ -1,0 +1,39 @@
+{
+  "Records": [
+    {
+      "eventID": "867b091ea02540cacdd830c9bc64cdf4",
+      "eventName": "MODIFY",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-central-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1749504031,
+        "Keys": {
+          "instance_name": {
+            "S": "mirth1"
+          }
+        },
+        "NewImage": {
+          "instance_name": {
+            "S": "mirth1"
+          },
+          "statistics": {
+            "S": "{\"list\":{\"channelStatistics\":[{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"7d907902-20ea-4ee0-ae13-529c43ebd8dd\",\"received\":0,\"sent\":0,\"error\":1,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"3ba7f015-780b-473a-aad5-0df55b856e23\",\"received\":12,\"sent\":4,\"error\":10,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"80e0c516-34bd-42ea-a20c-e2d5e5dc9635\",\"received\":0,\"sent\":0,\"error\":0,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"5afe59f3-b652-437a-9d8f-288c2b9039df\",\"received\":0,\"sent\":0,\"error\":0,\"filtered\":0,\"queued\":0}]}}"
+          }
+        },
+        "OldImage": {
+          "instance_name": {
+            "S": "mirth1"
+          },
+          "statistics": {
+            "S": "{\"list\":{\"channelStatistics\":[{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"7d907902-20ea-4ee0-ae13-529c43ebd8dd\",\"received\":0,\"sent\":0,\"error\":0,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"3ba7f015-780b-473a-aad5-0df55b856e23\",\"received\":12,\"sent\":4,\"error\":10,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"80e0c516-34bd-42ea-a20c-e2d5e5dc9635\",\"received\":0,\"sent\":0,\"error\":0,\"filtered\":0,\"queued\":0},{\"serverId\":\"186587ee-6510-4c33-bd7c-a0d65902779d\",\"channelId\":\"5afe59f3-b652-437a-9d8f-288c2b9039df\",\"received\":0,\"sent\":0,\"error\":0,\"filtered\":0,\"queued\":0}]}}"
+          }
+        },
+        "SequenceNumber": "976400002365807873622612",
+        "SizeBytes": 772,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:eu-central-1:367906864559:table/services/stream/2025-06-09T16:39:32.978"
+    }
+  ]
+}
